@@ -25,7 +25,7 @@ CMX_present_dis_tgrid=cbind(rpENVdata[,c("lon","lat")], predict(CMXmod,rpENVdata
 
 #####Present climate in study areas##### 
 #transform climate data with GF model
-present_CMX<-read.csv("CMX_study_areas_present_climate_randon_points.csv",header = TRUE)
+present_CMX<-read.csv("CMX_study_areas_present_climate_random_points.csv",header = TRUE)
 CMX_present=cbind(present_CMX[,c("lon","lat")], predict(CMXmod,present_CMX[,top_variables]))
 CMX_present_spilt <- split(CMX_present, seq(nrow(CMX_present)))
 #Calculation invasive potential, Multithreading implementation refer to "Maladaptation, migration and extirpation fuel climate change risk in a forest tree species"
