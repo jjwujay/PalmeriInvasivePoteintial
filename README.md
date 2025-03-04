@@ -3,7 +3,7 @@ A novel metric based on GEAs<sup>1</sup><sup>,</sup><sup>2</sup>, which we term 
 See details:
 
 # Date of SNPs datasets using in GF model
-- CMX_snp_env_all_ran[1-3].csv: Three subsets of ALl SNPs and 19 environmental variables under pressent climate
+- CMX_snp_env_all_ran[1-3].csv: Three subsets of ALL SNPs and 19 environmental variables under pressent climate
 - CMX_snp_env_climate_ran[1-3].csv: Three subsets of SNPs associated with environmental variables and 19 environmental variables under pressent climate
 - CMX_snp_env_select_ran[1-3].csv: Three subsets of SNPs located in selective regions and 19 environmental variables under pressent climate
 # Data for calculation of Invasive Potential
