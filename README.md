@@ -12,5 +12,5 @@ See details:
 - CMX_study_areas_future_climatexxx_random_points.csv: random points with 19 environmental variables under different future climate in the study areas
 
 # References
-1. Fitzpatrick, M. C. & Keller, S. R. Ecological genomics meets community-level modelling of biodiversity: mapping the genomic landscape of current and future environmental adaptation. Ecol. Lett. 18, 1–16 (2015).
-2. Gougherty, A. V., Keller, S. R. & Fitzpatrick, M. C. Maladaptation, migration and extirpation fuel climate change risk in a forest tree species. Nat. Clim. Chang. 11, 166–171 (2021).
+1. Fitzpatrick, M. C. & Keller, S. R. Ecological genomics meets community-level modelling of biodiversity: mapping the genomic landscape of current and future environmental adaptation. *Ecol. Lett.* 18, 1–16 (2015).
+2. Gougherty, A. V., Keller, S. R. & Fitzpatrick, M. C. Maladaptation, migration and extirpation fuel climate change risk in a forest tree species. *Nat. Clim. Chang.* 11, 166–171 (2021).
