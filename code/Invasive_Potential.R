@@ -38,7 +38,7 @@ present_combinedInP <- CMX_present_dis_tgrid[,c("lon","lat")]
 present_combinedInP["InP"] <- c(adjusted_cosine_similarity(present_oneInP[,top_variables], CMX_present_dis_tgrid[,top_variables]))
 present_coordInP <- present_oneInP[,c("lon","lat")]
 #Select maxium adjusted cosine similarity as invasive potential
-present_maxCoordsInP <- present_combinedInP[which(present_combinedInT$InT == max(present_combinedInT$InT)),]
+present_maxCoordsInP <- present_combinedInP[which(present_combinedInP$InP == max(present_combinedInP$InP)),]
 present_maxValInP <- present_maxCoordsInP$InP
 present_maxPtInP <- present_maxCoordsInP[,c("lon","lat")]
 present_outInP <- c(x1=present_coordInP[[1]], y1=present_coordInP[[2]], InvasivePotential=present_maxValInP, x2=present_maxPtInP[[1]],y2=present_maxPtInP[[2]])
@@ -62,7 +62,7 @@ futureA126_combinedInP <- CMX_futureA126_dis_tgrid[,c("lon","lat")]
 futureA126_combinedInP["InP"] <- c(adjusted_cosine_similarity(futureA126_oneInP[,top_variables], CMX_futureA126_dis_tgrid[,top_variables]))
 futureA126_coordInP <- futureA126_oneInP[,c("lon","lat")]
 #Select maxium adjusted cosine similarity as invasive potential
-futureA126_maxCoordsInP <- futureA126_combinedInP[which(futureA126_combinedInT$InT == max(futureA126_combinedInT$InT)),]
+futureA126_maxCoordsInP <- futureA126_combinedInP[which(futureA126_combinedInP$InP == max(futureA126_combinedInP$InP)),]
 futureA126_maxValInP <- futureA126_maxCoordsInP$InP
 futureA126_maxPtInP <- futureA126_maxCoordsInP[,c("lon","lat")]
 futureA126_outInP <- c(x1=futureA126_coordInP[[1]], y1=futureA126_coordInP[[2]], InvasivePotential=futureA126_maxValInP, x2=futureA126_maxPtInP[[1]],y2=futureA126_maxPtInP[[2]])
@@ -86,7 +86,7 @@ futureA585_combinedInP <- CMX_futureA585_dis_tgrid[,c("lon","lat")]
 futureA585_combinedInP["InP"] <- c(adjusted_cosine_similarity(futureA585_oneInP[,top_variables], CMX_futureA585_dis_tgrid[,top_variables]))
 futureA585_coordInP <- futureA585_oneInP[,c("lon","lat")]
 #Select maxium adjusted cosine similarity as invasive potential
-futureA585_maxCoordsInP <- futureA585_combinedInP[which(futureA585_combinedInT$InT == max(futureA585_combinedInT$InT)),]
+futureA585_maxCoordsInP <- futureA585_combinedInP[which(futureA585_combinedInP$InP == max(futureA585_combinedInP$InP)),]
 futureA585_maxValInP <- futureA585_maxCoordsInP$InP
 futureA585_maxPtInP <- futureA585_maxCoordsInP[,c("lon","lat")]
 futureA585_outInP <- c(x1=futureA585_coordInP[[1]], y1=futureA585_coordInP[[2]], InvasivePotential=futureA585_maxValInP, x2=futureA585_maxPtInP[[1]],y2=futureA585_maxPtInP[[2]])
@@ -110,7 +110,7 @@ futureB126_combinedInP <- CMX_futureB126_dis_tgrid[,c("lon","lat")]
 futureB126_combinedInP["InP"] <- c(adjusted_cosine_similarity(futureB126_oneInP[,top_variables], CMX_futureB126_dis_tgrid[,top_variables]))
 futureB126_coordInP <- futureB126_oneInP[,c("lon","lat")]
 #Select maxium adjusted cosine similarity as invasive potential
-futureB126_maxCoordsInP <- futureB126_combinedInP[which(futureB126_combinedInT$InT == max(futureB126_combinedInT$InT)),]
+futureB126_maxCoordsInP <- futureB126_combinedInP[which(futureB126_combinedInP$InP == max(futureB126_combinedInP$InP)),]
 futureB126_maxValInP <- futureB126_maxCoordsInP$InP
 futureB126_maxPtInP <- futureB126_maxCoordsInP[,c("lon","lat")]
 futureB126_outInP <- c(x1=futureB126_coordInP[[1]], y1=futureB126_coordInP[[2]], InvasivePotential=futureB126_maxValInP, x2=futureB126_maxPtInP[[1]],y2=futureB126_maxPtInP[[2]])
@@ -134,7 +134,7 @@ futureB585_combinedInP <- CMX_futureB585_dis_tgrid[,c("lon","lat")]
 futureB585_combinedInP["InP"] <- c(adjusted_cosine_similarity(futureB585_oneInP[,top_variables], CMX_futureB585_dis_tgrid[,top_variables]))
 futureB585_coordInP <- futureB585_oneInP[,c("lon","lat")]
 #Select maxium adjusted cosine similarity as invasive potential
-futureB585_maxCoordsInP <- futureB585_combinedInP[which(futureB585_combinedInT$InT == max(futureB585_combinedInT$InT)),]
+futureB585_maxCoordsInP <- futureB585_combinedInP[which(futureB585_combinedInP$InP == max(futureB585_combinedInP$InP)),]
 futureB585_maxValInP <- futureB585_maxCoordsInP$InP
 futureB585_maxPtInP <- futureB585_maxCoordsInP[,c("lon","lat")]
 futureB585_outInP <- c(x1=futureB585_coordInP[[1]], y1=futureB585_coordInP[[2]], InvasivePotential=futureB585_maxValInP, x2=futureB585_maxPtInP[[1]],y2=futureB585_maxPtInP[[2]])
