@@ -1,5 +1,5 @@
 # Invasive potential in a malignant weed
-A novel metric based on GEAs<sup>1</sup><sup>,</sup><sup>2</sup>, which we term invasive potential, to assess invasive trend
+A novel metric based on GEAs<sup>1</sup><sup>,</sup><sup>2</sup>, which we term invasive potential, to assess invasive trend.
 See details:
 
 # Date of SNPs datasets using in GF model
