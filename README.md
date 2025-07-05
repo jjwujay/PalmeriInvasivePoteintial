@@ -10,7 +10,7 @@ See details:
 - CMX_snp_env.csv: minor allele frequency of 1525 SNPs and 19 environmental variables under pressent climate
 - CMX_current_invasive_ranges_random_points.csv: random points with 19 environmental variables under pressent climate in the current invasive range
 - CMX_study_areas_future_climatexxx_random_points.csv: random points with 19 environmental variables under different future climate in the study areas
-
+# Instructions can be found in the comments section of the code
 # References
 1. Fitzpatrick, M. C. & Keller, S. R. Ecological genomics meets community-level modelling of biodiversity: mapping the genomic landscape of current and future environmental adaptation. *Ecol. Lett.* 18, 1–16 (2015).
 2. Gougherty, A. V., Keller, S. R. & Fitzpatrick, M. C. Maladaptation, migration and extirpation fuel climate change risk in a forest tree species. *Nat. Clim. Chang.* 11, 166–171 (2021).
